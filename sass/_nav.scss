@@ -1,0 +1,57 @@
+nav{
+	background-color: white;
+	width: 2*$col;
+	height: 100vh;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	ul{
+		list-style: none;
+		margin-top: 70px;
+		margin-left: 0;
+		li{
+			font-family: $fontMon;
+			text-align: center;
+			a{
+				text-decoration: none;
+				color: $test;
+				padding: 20px;
+				display: block;
+			}
+			a:hover{
+				background: #573127;
+				color: white;
+			}
+		}
+	}
+}
+.cPage{
+	color: $pColor;
+	text-decoration: underline;
+}
+.active{
+	display: block;
+}
+.inactive{
+	display: none;
+}
+.fas{
+	color: $pColor;
+	font-size: 40px;
+	z-index: 3;
+	position: fixed;
+	top: 25px;
+	left: 25px;
+}
+.close{
+	color: red;
+	font-size: 40px;
+	position: absolute;
+	text-align: center;
+	margin: 25px;	
+}
+.close:hover{
+	color: $pColor;
+}

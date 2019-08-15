@@ -1,0 +1,28 @@
+.main{
+	width: 10*$col;
+	margin: auto;
+}
+.heading{
+	width: 12*$col;
+	padding: $divPad;
+	float: left;
+}
+.article{
+	float: left;
+	width: 12*$col;
+	background: $test;
+}
+.section1{
+	width: 6*$col;
+	float: left;
+}
+.imgCon{
+	float: right;
+	width: 6*$col;
+	padding: $divPad;
+}
+.flPara{
+	float: left;
+	width: 6*$col;
+	padding: $divPad;
+}

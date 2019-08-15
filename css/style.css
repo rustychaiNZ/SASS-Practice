@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+nav {
+  background-color: white;
+  width: 16.66%;
+  height: 100vh;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
+  nav ul {
+    list-style: none;
+    margin-top: 70px;
+    margin-left: 0; }
+    nav ul li {
+      font-family: "Monsterrat", sans-serif;
+      text-align: center; }
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+        padding: 20px;
+        display: block; }
+      nav ul li a:hover {
+        background: #573127;
+        color: white; }
+
+.cPage {
+  color: #2748a3;
+  text-decoration: underline; }
+
+.active {
+  display: block; }
+
+.inactive {
+  display: none; }
+
+.fas {
+  color: #2748a3;
+  font-size: 40px;
+  z-index: 3;
+  position: fixed;
+  top: 25px;
+  left: 25px; }
+
+.close {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin: 25px; }
+
+.close:hover {
+  color: #2748a3; }
+
+.main {
+  width: 83.3%;
+  margin: auto; }
+
+.heading {
+  width: 99.96%;
+  padding: 2%;
+  float: left; }
+
+.article {
+  float: left;
+  width: 99.96%;
+  background: #333; }
+
+.section1 {
+  width: 49.98%;
+  float: left; }
+
+.imgCon {
+  float: right;
+  width: 49.98%;
+  padding: 2%; }
+
+.flPara {
+  float: left;
+  width: 49.98%;
+  padding: 2%; }
+
+body {
+  background: #ffe270; }
+
+h1 {
+  color: #2748a3;
+  font-family: century gothic; }
+
+p, li, h2, h3, h4, h5, h6 {
+  color: #d1d1d1; }
+
+h2, h3, h4, h5, h6 {
+  font-family: century gothic; }
+
+p, li {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1em;
+  margin: 2% 0; }
+
+.para1 {
+  font-family: comic sans MS;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color: red;
+  text-align: justify; }
+
+.uOL {
+  padding-left: 4%; }
+
+.subHead {
+  color: #5e5e5e;
+  font-size: 1.2em;
+  margin: 0; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.goodGirl {
+  width: 99.96%;
+  height: auto;
+  margin: auto;
+  display: block; }
+
+.clear {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

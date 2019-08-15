@@ -1,0 +1,55 @@
+// Imports variables from an external awesome style sheet
+@import '_resets.scss';
+@import '_variables.scss';
+@import '_nav.scss';
+@import '_sections.scss';
+@import '_mixins.scss';
+
+body{
+	background: $backColor;
+}
+h1{
+	color: $pColor;
+	font-family: $fontHeading; 
+}
+p, h2, h3, h4, h5, h6{
+	color: $fontColor;
+}
+h2, h3, h4, h5, h6{
+	font-family: $fontHeading;
+}
+p{
+	font-family: $fontPara;
+	font-size: 1em;
+	margin: 2% 0;
+}
+.para1{
+	@include textStyle(comic sans MS, 1.5em, 1.3em, red, justify);
+}
+.uOL{
+	padding-left: 2*$divPad;
+}
+li{
+	@extend p;
+}
+.subHead{
+	color: $subHead;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+.goodGirl{
+	width: 12*$col;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.clear{
+	content: "";
+	display: table;
+	clear: both;
+}
