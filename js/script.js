@@ -27,7 +27,7 @@ $(document).ready(function(){
 	// $('#hide').click(function(){
 	// 	$('.reveal').hide();
 	// 	$('.btn').show();
-	// })
+	// }) d
 	$('.btn').click(function(){
 		$('.reveal').slideToggle(2000);
 	})
