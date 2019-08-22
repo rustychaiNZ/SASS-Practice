@@ -44,14 +44,16 @@ nav {
   z-index: 3;
   position: fixed;
   top: 25px;
-  left: 25px; }
+  left: 25px;
+  cursor: pointer; }
 
 .close {
   color: red;
   font-size: 40px;
   position: absolute;
   text-align: center;
-  margin: 25px; }
+  margin: 25px;
+  cursor: pointer; }
 
 .close:hover {
   color: #2748a3; }
@@ -84,6 +86,22 @@ nav {
   width: 49.98%;
   padding: 2%; }
 
+.btn {
+  width: 49.98%;
+  min-width: 100px;
+  max-width: 250px;
+  background: white;
+  color: #333;
+  border: 1px solid red;
+  padding: 1%;
+  border-radius: 25px; }
+
+.btn:hover {
+  background: black;
+  border-color: white;
+  color: white;
+  cursor: pointer; }
+
 body {
   background: #ffe270; }
 
@@ -102,7 +120,7 @@ p, li {
   font-size: 1em;
   margin: 2% 0; }
 
-.para1 {
+.para1, .features {
   font-family: comic sans MS;
   font-size: 1.5em;
   line-height: 1.3em;

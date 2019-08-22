@@ -44,13 +44,15 @@ nav{
 	position: fixed;
 	top: 25px;
 	left: 25px;
+	cursor: pointer;
 }
 .close{
 	color: red;
 	font-size: 40px;
 	position: absolute;
 	text-align: center;
-	margin: 25px;	
+	margin: 25px;
+	cursor: pointer;	
 }
 .close:hover{
 	color: $pColor;

@@ -32,6 +32,9 @@ p{
 li{
 	@extend p;
 }
+.features{
+	@extend .para1;
+}
 .subHead{
 	color: $subHead;
 	font-size: 1.2em;
